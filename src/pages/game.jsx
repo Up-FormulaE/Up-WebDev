@@ -6,7 +6,7 @@ export default function GamePage() {
     <>
       <Navbar />
       <iframe
-        src="https://up-formulae.github.io/Up-WebDev/"
+        src="https://up-formulae.github.io/Up-Game/"
         className="w-full min-h-screen"
       ></iframe>
       <Footer />
