@@ -46,7 +46,7 @@ export default function ContactPage() {
             />
           </div>
 
-          <button className="bg-blue-500 px-14 py-1 text-white rounded-lg w-fit hover:opacity-60 self-end">
+          <button type="submit" className="bg-blue-500 px-14 py-1 text-white rounded-lg w-fit hover:opacity-60 self-end">
             Enviar
           </button>
         </form>
