@@ -27,3 +27,15 @@ body,
 #root {
   background-color: #f4f4f4;
 }
+
+.form-control {
+  @apply flex flex-col;
+}
+
+.form-control label {
+  @apply font-bold;
+}
+
+.form-control input, .form-control textarea {
+  @apply border-gray-600/20 border-2 rounded-lg py-1 px-2;
+}
