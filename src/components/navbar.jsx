@@ -5,7 +5,7 @@ import mc from "../utils/merge-classname";
 export default function Navbar() {
   return (
     <nav className="w-full bg-white shadow-sm">
-      <div className="container p-10 flex items-center justify-between">
+      <div className="container p-10 flex items-center justify-between flex-wrap">
         <img src="mahindra-logo.png" className="h-10" />
 
         <div className="flex gap-6">
